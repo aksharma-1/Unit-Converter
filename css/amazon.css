@@ -1,0 +1,358 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color:#131921;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+.div1{
+    width: 178px;
+    height: 60px;
+    margin-left: 10px;
+    position: absolute;
+    top: 11px;
+    line-height: 50px;
+}
+.logo{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+}
+.logo_p{
+    font-size: 25px;
+    position:absolute;
+    top:7px;
+    left:150px;
+    /* color: white; */
+}
+.div2{
+    height: 60px;
+    width: 156px;
+    position: absolute;
+    top: 12px;
+    left: 208px;
+    color: white;
+}
+.div2 p{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.div3{
+    position: absolute;
+    top: 10px;
+    margin-left: 40px;
+}
+.search{
+    width: 760px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    position:absolute;
+    top: 8px;
+    left: 335px;
+}
+.search:hover{
+    border: 3px solid rgb(92, 91, 91);
+}
+.submit{
+    width: 40px;
+    height: 36px;    
+    background-image: url("/image/pngwing.com.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    position: relative;
+    top: 12px;
+    left: 1078px;
+}
+.submit:hover{
+    border: 2px solid rgb(92, 91, 91);
+}
+.div4{
+    width: 140px;
+    height: 60px;
+    font-size: 16px;
+    position: absolute;
+    top: 11px;
+    right: 217px;
+    color: white;
+}
+.div4 p{
+    position:absolute;
+    top: 15px;
+    left: 18px;
+}
+.div5{
+    width: 108px;
+    height: 60px;
+    position: absolute;
+    top: 10px;
+    right: 102px;
+    color: white;
+}
+.div5 p{
+    position: absolute;
+    top: 17px;
+    left: 26px;
+}
+.div6{
+   width: 76px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 10px;
+    left:1420px;
+    color: white;
+    margin: 0px;
+}
+.div6 a img{
+    position: absolute;
+    top: 18px;
+    left: 3px;
+}
+.cart{
+    position: absolute;
+    top: 36px;
+    left: 46px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header .div1:hover{
+    border: 1px solid white;  
+}
+.header .div2:hover{
+    border: 1px solid white;  
+}
+.header .div4:hover{
+    border: 1px solid white;  
+}
+.header .div5:hover{
+    border: 1px solid white;  
+}
+.header .div6:hover{
+    border: 1px solid white;  
+}
+.nav_bar ul li{
+    height: 25px;
+    padding: 0px 25px;
+    float: left;
+    list-style: none;
+    line-height: 35px;
+}
+.nav_bar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    top: -4px;
+}
+.nav_bar{
+    height: 35px;
+    width: 100%;
+    background-color:#25323e;;
+}
+.nav_bar ul li:hover{
+    border: 1px solid white;
+}
+.bg_img img{
+    width: 100%;
+}
+.main_img_div{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    margin-top: 500px;
+    position: absolute;
+    top: 0px;
+}
+.main_img_div .img_div{
+    float: left;
+    padding: 0px 39px;
+    position: relative;
+    top: 10px;
+}
+.main_img_div .img_div img{
+    width: 300px;
+    height: 300px;
+}
+.img_div h2{
+    width: 290px;
+}
+.img_div p a{
+    color: blue;
+}
+.img_div p a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.home_furniture{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+.home_furniture img{
+    position: relative;
+    top: 210px;
+}
+.glasses_img{
+    height: 300px;
+    background-color: white;
+    
+}
+.glasses_img ul li{
+    float: left;
+    padding: 0px 21px;
+    list-style: none;
+    margin-top: 8px;
+}
+.glasses_img h2{
+    margin-left: 17px;
+}
+.glasses_img a{
+    color: blue;
+    position: relative;
+    top: -19px;
+    left:0px;
+}
+.glasses_img .a{
+    position: relative;
+    left: 665px;
+}
+.electronic{
+    width: 100%;
+    height: 315px;
+}
+.electronic .ul1 li{
+    float: left;
+    padding: 0px 15px;
+    list-style: none;
+}
+.electronic .a{
+    position: relative;
+    left: 150px;
+    top: -30px;
+    color: blue;
+}
+.electronic a{
+    color: red;
+}
+.electronic .ul1 li div{
+    background-color: red;
+    color: white;
+    width: 106px;
+}
+.sign_in{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    border: 1px solid rgb(192, 190, 190);
+}
+.sign_in form{
+    position: relative;
+    top: 15px;
+    line-height: 25px;
+}
+.sign_in form input{
+    width: 235px;
+    height: 25px;
+    background-image: linear-gradient(wheat,rgb(241, 185, 80),orange);
+    border: 1px solid rgb(165, 165, 0);
+    border-radius: 5px;
+}
+.sign_in form input:hover{
+    border: 2px solid  rgb(66, 66, 0);
+}
+.back_to_top{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(31, 38, 54);
+    line-height: 50px;
+    text-align: center;
+}
+.back_to_top:hover{
+    background-color: rgb(47, 57, 80);;
+}
+.first_footer{
+    width: 100%;
+    height: 400px;
+    background-color: #25323e;
+    color: white;
+}
+.first_footer ul{
+    float: left;
+    /* padding: 0px 10px; */
+    margin: 20px 113px ;
+}
+.first_footer ul li{
+    list-style: none;
+    padding: 5px 0px;
+}
+.first_footer li a:hover{
+    text-decoration: underline;
+}
+.first_footer img{
+    width: 80px;
+    height: 30px;
+    position: relative;
+    bottom: -12px;
+}
+.first_footer div ul li{
+    float: left;
+    font-size: 13px;
+    padding: 5px  20px;
+}
+footer{
+    background-color: rgb(32, 32, 32);
+    height: 245px;
+    width: 100%;
+}
+footer li{
+    list-style: none;
+    float: left;
+    width: 89px;
+    font-size: 12px;
+    padding: 0px 70px;
+    margin-top: 25px;
+}
+footer .ul1{
+    margin-left: 184px;
+    padding-top: 10px;
+   
+}
+footer .ul2{
+    margin-left: 184px;
+    padding-top: 80px;   
+}
+footer .ul2 li{
+    list-style: none;
+    float: left;
+    width: 94px;
+    font-size: 12px;
+    padding: 0px 70px;
+    margin-top: 25px;
+}
+footer li a:hover{
+    text-decoration: underline;
+}
+footer p{
+    color: white;
+    position: relative;
+    top: 29px;
+    left: 405px;
+    width: 720px;
+}
