@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="taraju.jpg" type="image/x-icon">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="c_to_f.css">
+    <script src="/c_to_f.js"></script>
+</head>
+<body>
+    <center>
+        <div class="main">
+        <select id="select" onchange="u_to_u()">
+            <option>Select Units</option>
+            <option>Temperature</option>
+            <option>Area</option>
+            <option>Mass</option>
+            <option>Length</option>
+            <option>Time</option>
+            <option>Speed</option>
+            <option>Volume</option>
+        </select><br><br>
+        <input type="text" id="cel" placeholder="" onkeyup="u1()"> <input type="text" id="unit1" value="" readonly><br><br>
+        <input type="text" id="fah" placeholder="" onkeyup="u2()"> <input type="text" id="unit2" value="" readonly><br><br>
+        <span id="formula">Formula</span>
+        <span id="for"></span>
+        </div>
+    </center>
+</body>
+</html>
